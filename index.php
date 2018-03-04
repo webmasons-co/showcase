@@ -108,7 +108,7 @@
                                             <div class="portfolio-hover-main text-center">
                                                 <div class="portfolio-hover-box vertical-align-middle">
                                                     <div class="portfolio-hover-content position-relative">
-                                                        <a href="./single-project-page-01.html"><span class="line-height-normal font-weight-500 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block"><cms:show website_name /></span></a>
+                                                        <a href="<cms:show link />"><span class="line-height-normal font-weight-500 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block"><cms:show website_name /></span></a>
                                                         <p class="text-medium-gray text-extra-small text-uppercase"><cms:show tags /></p>
                                                     </div>
                                                 </div>
