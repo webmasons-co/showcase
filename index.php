@@ -202,7 +202,7 @@
 
 <cms:else />
 
-    <cms:embed 'index.html'/ >
+    <cms:embed 'index.html' />
 
 </cms:if>
 
