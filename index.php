@@ -80,7 +80,7 @@
                                 <div class="display-table-cell vertical-align-middle breadcrumb text-large alt-font">
                                     
                                     <ul class="xs-text-center">
-                                        <li><a href="index.html" class="text-dark-gray">Categories</a></li>
+                                        <li><a href="index.php" class="text-dark-gray">Categories</a></li>
                                         <li class="text-dark-gray">Columns</li>
                                     </ul>
                                     
