@@ -1,7 +1,8 @@
 <?php require_once( 'couch/cms.php' ); ?>
 
 <cms:template title='Showcase Categories' clonable='1'>
-
+    <cms:editable type='image' name='category_image' label='Category Image' />
+    <cms:editable type='richtext' name='category_description' label='Category description' />
     <cms:repeatable name='websites' >
         <cms:editable type='image' name='website_preview' label='Website Preview' />
         <cms:editable type='text' name='link' label='Link' desc='Enter Website Link' />

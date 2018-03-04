@@ -78,21 +78,21 @@
                         <!-- start services item -->
                         <cms:pages masterpage='index.php' >
                         <div class="col-md-4 col-sm-4 col-xs-12 team-block text-center feature-box-15 xs-margin-40px-bottom last-paragraph-no-margin wow fadeInUp">
-                            <a href="category.html">
+                            <a href="<cms:show k_page_link />">
                             <figure>
                                 <div class="feature-box-content xs-width-100">
-                                    <div class="feature-box-image"><img src="./images/image-4.jpg" alt="" /></div>
+                                    <div class="feature-box-image"><img src="<cms:show category_image />" alt="" /></div>
                                     <div class="hover-content bg-webmasons">
                                         <div class="display-table height-100 width-100">
                                             <div class="vertical-align-middle display-table-cell padding-twelve-lr">
-                                                <span class="text-white display-inline-block text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                                                <span class="text-white display-inline-block text-center"><cms:show category_description /></span>
                                             </div>
                                         </div>
                                     </div> 
                                 </div>
                                 <figcaption>
                                     <div class="text-center margin-25px-top">
-                                        <div style="font-size: 130%;" class="text-extra-dark-gray alt-font font-weight-500">Design and Development</div> 
+                                        <div style="font-size: 130%;" class="text-extra-dark-gray alt-font font-weight-500"><cms:show k_page_title /></div> 
                                     </div>   
                                 </figcaption>
                             </figure>
