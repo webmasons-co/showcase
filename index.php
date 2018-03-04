@@ -81,7 +81,7 @@
                                     
                                     <ul class="xs-text-center">
                                         <li><a href="index.php" class="text-dark-gray">Categories</a></li>
-                                        <li class="text-dark-gray">Columns</li>
+                                        <li class="text-dark-gray"><cms:show k_page_title /></li>
                                     </ul>
                                     
                                 </div>
