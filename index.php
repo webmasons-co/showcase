@@ -138,6 +138,18 @@
         <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
         <!-- end scroll to top  -->
         <!-- javascript libraries -->
+	<!-- Hotjar Tracking Code for www.webmasons.co -->
+	<!-- Hotjar Tracking Code for showcase.webmasons.co -->
+	<script>
+	    (function(h,o,t,j,a,r){
+		h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+		h._hjSettings={hjid:811215,hjsv:6};
+		a=o.getElementsByTagName('head')[0];
+		r=o.createElement('script');r.async=1;
+		r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+		a.appendChild(r);
+	    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
         <script type="text/javascript" src="./js/jquery.js"></script>
         <script type="text/javascript" src="./js/modernizr.js"></script>
         <script type="text/javascript" src="./js/bootstrap.min.js"></script>
