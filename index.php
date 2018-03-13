@@ -39,11 +39,11 @@
 
 	#cover >img{
 		position: fixed;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		border-radius: 50%;
-		animation: pulse 2s infinite;
+		    top: 7%;
+		    left: 11%;
+		    transform: translate(-50%, -50%);
+		    border-radius: 2%;
+		    animation: pulse 2s infinite;
 	}
 	@-webkit-keyframes pulse {
 	  0% {
