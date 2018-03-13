@@ -26,6 +26,52 @@
         <meta name="description" content="We are a full-stack web development agency, offering design, development and SEO services to our clients. We build websites that commute well throughout all platforms, consistently." />
         <!-- keywords -->
         <meta name="keywords" content="web development, software development, web agency, web design" />
+	<style>
+	#cover {
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		background: #fff;
+		z-index: 9999;
+	}
+
+	#cover >img{
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: 50%;
+		animation: pulse 2s infinite;
+	}
+	@-webkit-keyframes pulse {
+	  0% {
+	    -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+	  }
+	  70% {
+	      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+	  }
+	  100% {
+	      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+	  }
+	}
+	@keyframes pulse {
+	  0% {
+	    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+	    box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+	  }
+	  70% {
+	      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+	      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+	  }
+	  100% {
+	      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+	      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+	  }
+	}
+
+	</style>
         <!-- favicon -->
         <link rel="shortcut icon" href="./images/favicon.png" />
         <link rel="apple-touch-icon" href="./images/favicon.png" />
@@ -67,12 +113,18 @@
 		r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
 		a.appendChild(r);
 	    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+	    $(window).ready(function() {
+	        $("#cover").fadeOut(2000);
+	    });
 	</script>
+	
         <!--[if IE]>
             <script src="./js/html5shiv.js"></script>
         <![endif]-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
     <body>
+	<div id="cover"><img src="./images/loader.jpg"/></div>
         <!-- start header -->
         <a href = "https://webmasons.co/" class="showcase_logo container">
             <img src="./images/logo.png"/>
