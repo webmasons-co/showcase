@@ -114,9 +114,7 @@
 		a.appendChild(r);
 	    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 
-	    $(window).ready(function() {
-	        $("#cover").fadeOut(2000);
-	    });
+	    
 	</script>
 	
         <!--[if IE]>
@@ -263,6 +261,11 @@
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
         <!-- setting -->
         <script type="text/javascript" src="./js/main.js"></script>
+	<script>
+		$(window).ready(function() {
+		        $("#cover").fadeOut(2000);
+	    });
+	</script>
     </body>
 </html>
 
